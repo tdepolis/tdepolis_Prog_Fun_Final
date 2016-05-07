@@ -1,0 +1,9 @@
+PROBLEM STATEMENT: Create a phaser game that takes input from the user and they
+are able to control a character using the arrow keys(left, right) for walking
+and the (up) key for jumping. As they walk or jump around they need to be
+interacting with something. Such as jumping onto platforms or collecting valued
+objects. The program must have a successful output and no errors.
+
+Nouns: game, user, character, keys, errors
+
+Verbs: takes input, control, walking, jumping, interacting, collecting, output
