@@ -1,0 +1,148 @@
+VARIABLES:
+  coin
+  collector
+  left arrow
+  pepper
+  right arrow
+  up arrow
+  down arrow
+
+TEST CASE 1:
+
+  INPUT VALUES:
+  left arrow
+
+  EXPECTED RESULT:
+  left arrow = collector walks to the left into wall
+  coins slowly descend and bounce
+  pepper descends and bounces
+
+  ACTUAL RESULT:
+  collector walks to left into wall
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+TEST CASE 2:
+
+  INPUT VALUES:
+  left arrow
+  right arrow
+  EXPECTED RESULT:
+  left arrow = collector walks into wall to the left
+  right arrow = collector begins walking to the right
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+  ACTUAL RESULT:
+  left arrow = collector walks into wall to the left
+  right arrow = collector begins walking to the right
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+TEST CASE 3:
+
+  INPUT VALUES:
+  left arrow
+  right arrow
+  up arrow
+
+  EXPECTED RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector is able to walk to the right
+  up arrow = collector jumps up and collects coins
+
+  ACTUAL RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector is able to walk to the right
+  up arrow = collector jumps up and collects coins
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+TEST CASE 4:
+
+  INPUT VALUES:
+  left arrow
+  right arrow
+  up arrow
+  down arrow
+  EXPECTED RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+  ACTUAL RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+TEST CASE 5:
+
+  INPUT VALUES:
+
+
+  EXPECTED RESULT:
+  collector sits there
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+  ACTUAL RESULT:
+  collector sits there
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+
+TEST CASE 6:
+
+  INPUT VALUES:
+  left arrow
+  right arrow
+  up arrow
+  down arrow
+  click on screen
+  EXPECTED RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+  more coins begin to spawn
+
+  ACTUAL RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+
+TEST PLAN 7
+
+  INPUT VALUES:
+  left arrow
+  right arrow
+  up arrow
+  down arrow
+  click on screen
+  EXPECTED RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps onto platform
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
+  more coins begin to spawn
+
+  ACTUAL RESULT:
+  left arrow = collector walks to the left
+  right arrow = collector walks to the right
+  up arrow = collector jumps onto platform 
+  down arrow = collectors descend feels controlled when pressed in air
+  coins slowly descend and bounce with spin animation
+  pepper descends and bounces
